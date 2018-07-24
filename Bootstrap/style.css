@@ -1,0 +1,420 @@
+*{
+	margin: 0;
+padding: 0;
+}
+.body{
+	background: blue;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    text-transform: uppercase;
+}
+#slider{
+	background: url(_MG_0750.JPG);
+}
+.carousel-item{
+	padding: 180px 0;
+	color: #fff;
+}
+.carousel-item h3{
+	font-size: 40px;
+}
+.carousel-item h2{
+	font-size: 100px;
+	border: 2px solid white;
+	max-width: 670px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.carousel-item h4{
+	font-size: 36px;
+}
+.carousel-item span{
+	color:green;
+}
+.carousel-indicators li{
+	background-color: white;
+	margin: 2px;
+
+}
+.carousel-indicators .active{
+background-color: green;
+margin: 2px;
+}
+.slider-overlay{
+	width: 100%;
+	background: rgba(0,0,0,.3);
+}
+#about{
+	color:black;
+	padding: 110px 0;
+}
+.about-top h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+
+}
+.about-top p{
+	font-size: 16px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.about-contant{
+padding: 50px;
+}
+.about-icon i{
+font-size: 35px;
+
+}
+.about-icon h2{
+font-size: 24px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.about-icon p{
+font-size: 14px;
+}
+
+
+.about-icon:hover i {
+    color: green;
+}
+
+.about-icon:hover h2{
+color: green;
+}
+#services{
+	background:#e1e1e1;
+	padding: 90px 0;
+}
+.service-icon img {
+width: 100%;
+}
+.service-icon{
+	position: relative;
+	overflow: hidden;
+}
+.img-overlay{
+	position: absolute;
+	background: rgba(0,0,0,.3);
+	height: 100%;
+	width:100%;
+	top:-100%;
+	transition: .5s;
+}
+.service-icon:hover .img-overlay{
+	top:0;
+}
+.about-icon-overlay{
+	position: absolute;
+	left: 33%;
+	bottom: -100%;
+	transition: .5s;
+}
+.about-icon-overlay i{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	font-size: 15px;
+	line-height: 40px;
+	color:#fff;
+}
+.service-icon:hover .about-icon-overlay{
+	bottom: 40%;
+}
+.about-icon-overlay i:hover{
+background: green;
+border: 1px solid green;
+}
+
+* { box-sizing: border-box; }
+
+
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #000;
+  border: none;
+  border-radius: 7px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: # ;
+
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+
+
+.button-group .button {
+
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 12px;
+  margin-bottom: 40px;
+}
+
+
+
+/* ---- isotope ---- */
+
+
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  
+  background: ;
+  color: #262524;
+width: 33%;
+border: 10px solid #fff;
+overflow: hidden;
+}
+.element-item img{
+	width: 100%;
+}
+#portfol{
+padding: 10px 0;
+
+}
+#portfol p{
+max-width: 700px;
+margin:0 auto;	
+margin-bottom: 30px;
+}
+#portfol h2{
+text-transform: uppercase;
+font-weight: bold;
+}
+.isotope-overlay{
+	position: absolute;
+	background:rgba(0,0,0,.7);
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	transition: .5s;
+}
+.element-item:hover .isotope-overlay{
+	top: 0;
+}
+.isotope-overlay h2{
+color: green;
+margin-top: 150px;
+}
+
+#pricing-table{
+	padding: 100px 0;
+}
+.pricing{
+	background: #39393a;
+	padding: 20px;
+	border-radius: .5px;
+	color: white;
+	transition: .5s;
+
+}
+.pricing-top{
+	width: 140px;
+	height: 140px;
+	border-radius: 100%;
+	border: 5px solid #fff;
+	margin: 0 auto; 
+	transition: .5s;
+}
+.pricing-top p{
+margin-top: 20px;
+}
+.pricing-top sup{
+	font-size: 20px;
+	top: -3px;
+	left:-5px;
+	
+}
+.pricing-top em{
+	font-size: 20px;
+}
+.pricing-top span{
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.pricing ul{
+padding: 0px;
+}
+.pricing ul li{
+	max-width: 145px;
+	border-bottom: 1px solid #fff;
+	list-style: none;
+	margin: 0 auto;
+	padding: 12px 0;
+	font-size: 16px;
+}
+.btn{
+	background: #fff;
+	color: #39393a;
+	text-transform: uppercase;
+	border-radius: 0px;
+	font-weight: bold;
+	padding: 5px 20px;
+	transition: .5s;
+}
+.pricing:hover{
+	background: green;
+	color: #fff;
+
+}
+.pricing:hover .pricing-top{
+	background: #fff;
+	color: #87d37c;
+	
+	
+}
+.pricing:hover .btn{
+	background: #fff;
+	color: #87d37c;
+	
+}
+#counterup{
+	background: url(_MG_0750.JPG)no-repeat;
+}
+.counter-overlay{
+	width: 100%;
+	background: rgba(0,0,0,.5);
+	
+}
+.count{
+	border:1px solid  #5f5a58;
+	color: #fff;
+	padding: 20px 0;
+	background: rgba(0,0,0,.7);
+	text-transform: ;
+}
+.counter-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 100px 0;
+}
+
+.count span{
+	font-size: 30px;
+}
+.count h3{
+	font-size: 20px;
+}
+#contact-us{
+	padding: 100px 0;
+}
+.about-top p{
+	padding: 20px;
+}
+.contact-contant i{
+    color: #232424;
+    font-size: 45px;
+    line-height: 60px;
+
+}
+.contact-contant h3{
+      text-transform: uppercase;
+    font-weight: bold;
+	
+}
+.contact-contant h4{
+      font-size: 14px;
+}
+.contact-contant:hover i, 
+.contact-contant:hover h3{
+     color: green;
+}
+.contact-contant i,h3{
+	transition: .5s;
+}
+#contact-form{
+	    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+.form-control{
+    border-radius: 0px;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #fff;
+
+
+   
+    
+}
+.text-area textarea{
+height: 80px;
+}
+.text-area button{
+    margin-left: 15px;
+        background-color: green;
+    color: white;
+    padding:5px 30px;
+}
+.btn-default{
+	border-color: none;
+}
+#footer{
+	background: #000;
+	padding: 20px 0;
+	color: white;
+}
+.footer-text p{
+
+}
+.footer-icon i{
+
+    font-size: 24px;
+    margin: 0 10px 0 7px;
+}
+.footer-icon i:hover{
+color: green;
+}
